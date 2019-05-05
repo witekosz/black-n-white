@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Black & White</title>
+</head>
+<body>
+
+    <section>
+        <div class="pointer"></div>
+        <h1>Black & White</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas at ullam recusandae, architecto atque consequatur aspernatur aut temporibus aliquam, fugit asperiores ratione possimus ea tempore ad sint placeat ipsa eligendi.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil rem consectetur perferendis quasi illo hic ea nisi itaque, temporibus quo, ex magnam! Impedit eos vitae possimus, ut ipsa corrupti aliquam?
+        </p>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).mousemove(function(e){
+            $('.pointer').css({left:e.pageX, top:e.pageY})
+        })
+    </script>
+
+</body>
+</html>
